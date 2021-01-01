@@ -5,11 +5,18 @@
 
 ## Contents
 * [About](#About)
+* [Technologies](#Technologies)
 * [Features](#Features)
 
 
 ## About
 __Cipies__ sculpt from _CPS (Cashless Payment System)_ is an app that facillitates Payments without cash.
+
+## Technologies
+* [Laravel](https://laravel.com)
+* [ReactJs](https://reactjs.org)
+* [InertiaJs](https://inertiajs.com)
+* [Fortify](https://laravel.com/docs/8.x/fortify)
 
 ## Features
 * [ ] Authentication
