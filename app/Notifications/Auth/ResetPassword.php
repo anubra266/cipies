@@ -10,8 +10,11 @@ class ResetPassword extends ResetPasswordNotification implements ShouldQueue
 {
     use Queueable;
 
-    public function __construct()
+    public $token;
+
+    public function __construct($token)
     {
+        $this->token = $token;
         $this->queue = 'auth';
     }
 }
