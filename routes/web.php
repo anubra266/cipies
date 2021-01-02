@@ -4,8 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return inertia('Home');
-    return view('welcome');
+    return inertia('Landing');
 });
 
 Route::view('home', 'home')
