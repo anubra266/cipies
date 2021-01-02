@@ -26,7 +26,6 @@
     },
     "dependencies": {
         "@inertiajs/inertia": "^0.8.2",
-        "@inertiajs/inertia-react": "^0.5.0",
-        "ziggy-js": "^1.0.4"
+        "@inertiajs/inertia-react": "^0.5.0"
     }
 }
