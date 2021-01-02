@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const Home = () => {
-    return <a href={route("home")}>Wow</a>;
-};
+    return (
+        <div>
 
-export default Home;
+        </div>
+    )
+}
+
+export default Home
