@@ -2,6 +2,7 @@ const mix = require("laravel-mix");
 
 mix.react("resources/js/app.js", "public/js")
     .sass("resources/sass/app.scss", "public/css")
+    .postCss("resources/css/app.css", "public/css", [require("tailwindcss")])
     .webpackConfig({
         output: { chunkFilename: "js/[name].js?id=[chunkhash]" },
         resolve: {
