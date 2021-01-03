@@ -40,7 +40,7 @@
 
 <body>
     <div id="app" data-page="{{ json_encode($page) }}">
-        <h1>loading...</h1>
+        <img class="preloader-cus" src="{{URL('/images/preloader.gif')}}">
     </div>
 </body>
 

@@ -1,12 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 
-
-Route::get('/', function () {
+$router->get('/', function () {
     return inertia('Landing');
 });
 
-Route::view('home', 'home')
+$router->view('home', 'home')
     ->name('home')
     ->middleware(['auth', 'verified']);

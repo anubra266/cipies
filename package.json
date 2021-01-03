@@ -11,8 +11,6 @@
     },
     "devDependencies": {
         "@babel/preset-react": "^7.0.0",
-        "@tailwindcss/postcss7-compat": "^2.0.2",
-        "autoprefixer": "^9.8.6",
         "axios": "^0.19",
         "bootstrap": "^4.0.0",
         "cross-env": "^7.0",
@@ -20,18 +18,15 @@
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
         "popper.js": "^1.12",
-        "postcss": "^7.0.35",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
         "resolve-url-loader": "^3.1.0",
         "sass": "^1.15.2",
-        "sass-loader": "^8.0.0",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+        "sass-loader": "^8.0.0"
     },
     "dependencies": {
         "@inertiajs/inertia": "^0.8.2",
         "@inertiajs/inertia-react": "^0.5.0",
-        "@inertiajs/progress": "^0.2.4",
-        "kutty": "^0.4.1"
+        "@inertiajs/progress": "^0.2.4"
     }
 }
