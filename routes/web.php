@@ -2,7 +2,7 @@
 
 
 $router->get('/', function () {
-    return inertia('Landing');
+    return view('welcome');
 });
 
 $router->view('home', 'home')
