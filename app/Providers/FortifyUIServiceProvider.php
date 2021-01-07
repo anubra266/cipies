@@ -25,6 +25,7 @@ class FortifyUIServiceProvider extends ServiceProvider
     public function boot()
     {
         Fortify::loginView(function () {
+            return inertia('Auth/Login');
             return view('auth.login');
         });
 
