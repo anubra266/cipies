@@ -3,8 +3,9 @@ import React from "react";
 import { render } from "react-dom";
 
 // import 'bootstrap/dist/css/bootstrap.css';
-import 'antd/dist/antd.css';
-import { useProgressBar } from "./ProgressBar";
+import "antd/dist/antd.css";
+import "../css/app.css";
+import { useProgressBar } from "./components/ProgressBar";
 const el = document.getElementById("app");
 
 useProgressBar();

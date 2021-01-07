@@ -1,10 +1,8 @@
 <?php
 
 
-$router->get('/', function () {
-    return view('welcome');
-});
+$router->get('/', fn () => view('welcome'));
 
-$router->view('home', 'home')
-    ->name('home')
-    ->middleware(['auth', 'verified']);
+$router->group(['middleware' => ['auth', 'verified']], function () use ($router) {
+    $router->get('/home', fn () => inertia('Home'))->name('home');
+});
