@@ -1,5 +1,5 @@
 import React from "react";
-import SiteLayout from "~/Layouts/Private";
+import SiteLayout from "~/Layouts/General";
 
 const index = () => {
     return (

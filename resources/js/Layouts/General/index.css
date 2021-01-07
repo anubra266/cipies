@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    background: #eee;
+}
+
+.playout-header {
+    background-color: #1890ff;
+    border: solid 1px transparent;
+}
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+nav {
+    padding: 0 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.menu,
+.submenu {
+    list-style-type: none;
+}
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+    text-align: left;
+}
+.item {
+    padding: 10px;
+}
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
+/* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+.item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.active .item {
+    display: block;
+}
+
+/* Tablet menu */
+@media all and (min-width: 700px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+}
+/* Desktop menu */
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+.wave-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+}
+.papp {
+    display: grid;
+    grid-template-rows: 0px 1fr;
+    /* justify-items: center; */
+}
+
+.pcurve {
+    border: none;
+}
+.ppage {
+    margin-top: 5%;
+    /* width: fit-content; */
+}
+.pbox {
+    /* box-shadow: 2px -2px 2px rgb(160, 160, 160); */
+    width: 100%;
+    border-radius: 10px;
+}
+.pagehead {
+    color: white;
+    font-weight: 600;
+}
