@@ -25,9 +25,15 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
+        "@chakra-ui/icons": "^1.0.2",
+        "@chakra-ui/react": "^1.1.2",
+        "@emotion/react": "^11.1.4",
+        "@emotion/styled": "^11.0.0",
         "@inertiajs/inertia": "^0.8.2",
         "@inertiajs/inertia-react": "^0.5.0",
         "@inertiajs/progress": "^0.2.4",
-        "antd": "^4.9.4"
+        "antd": "^4.9.4",
+        "formik": "^2.2.6",
+        "framer-motion": "^3.2.0"
     }
 }
